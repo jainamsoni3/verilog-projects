@@ -1,0 +1,89 @@
+$date
+	Fri Mar 13 01:55:05 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module alu_tb $end
+$var wire 1 ! zero_f $end
+$var wire 1 " overflow_f $end
+$var wire 8 # out [7:0] $end
+$var wire 1 $ negative_f $end
+$var wire 1 % carry_f $end
+$var reg 8 & a [7:0] $end
+$var reg 8 ' b [7:0] $end
+$var reg 3 ( op [2:0] $end
+$scope module uut $end
+$var wire 8 ) a [7:0] $end
+$var wire 8 * b [7:0] $end
+$var wire 3 + op [2:0] $end
+$var reg 1 % carry_f $end
+$var reg 1 $ negative_f $end
+$var reg 8 , out [7:0] $end
+$var reg 1 " overflow_f $end
+$var reg 9 - temp [8:0] $end
+$var reg 1 ! zero_f $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1111 -
+b1111 ,
+b0 +
+b101 *
+b1010 )
+b0 (
+b101 '
+b1010 &
+0%
+0$
+b1111 #
+0"
+0!
+$end
+#10
+b101 #
+b101 ,
+b101 -
+b1 (
+b1 +
+#20
+1!
+b0 #
+b0 ,
+b10 (
+b10 +
+#30
+0!
+b1111 #
+b1111 ,
+b11 (
+b11 +
+#40
+b100 (
+b100 +
+#50
+1$
+b11110101 #
+b11110101 ,
+b101 (
+b101 +
+#60
+0$
+b10100 #
+b10100 ,
+b110 (
+b110 +
+#70
+b101 #
+b101 ,
+b111 (
+b111 +
+#80
